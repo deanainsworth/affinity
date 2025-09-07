@@ -1,0 +1,31 @@
+/* 
+DA System Monitor Plugin Styles
+Author: Dean Ainsworth
+Version: 1.0
+Description: Styles for the System Monitor admin widget.
+*/
+
+
+.da-item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.da-item:last-child {
+    margin-bottom: 0;   
+}
+
+.da-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.da-item p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.9em;
+}
